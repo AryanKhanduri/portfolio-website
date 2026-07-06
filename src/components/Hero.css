@@ -1,0 +1,51 @@
+#hero{
+    color:inherit;
+    display:flex;
+    justify-content:space-between;
+    text-align:center;
+    text-align : left;
+    margin-top: 40px;
+}
+#hero h1{
+    font-size:32px;
+}
+#hero h2{
+    font-size:56px;
+}
+#hero h3{
+    font-size:28px;
+}
+#profilepic{
+    width:400px;
+    height:auto;
+    border-radius:20px;
+    object-fit:cover;
+    box-shadow: 0 20px 40px rgba(0,0,0,.25);
+    margin-bottom:50px;
+}
+#profilepic:hover{
+    transform:scale(1.02);
+}
+#buttons{
+    border:none;
+    font-weight:600;
+    font-size:16px;
+    display:flex;
+    gap:40px;
+    margin-top:35px;
+    transition:0.3s ease;
+}
+#contactme{
+    border-radius:10px;
+    cursor:pointer;
+    padding : 14px 28px;
+}
+#resume{
+    border-radius:10px;
+    cursor:pointer;
+    padding : 14px 28px;
+}
+#contactme:hover,
+#resume:hover{
+    transform:translateY(-2px);
+}

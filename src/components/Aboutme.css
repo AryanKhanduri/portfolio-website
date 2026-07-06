@@ -1,0 +1,9 @@
+#aboutme{
+    text-align:left;
+    max-width:900px;
+    color : inherit;
+    transition : color .3s ease;
+}
+#aboutme p{
+    margin-bottom :18px;
+}
